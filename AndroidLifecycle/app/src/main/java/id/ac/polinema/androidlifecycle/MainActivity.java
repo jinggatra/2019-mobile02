@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	// TODO: lengkapi callback untuk onRestart() onResume() onPause() onDestroy()
-
-	protected void onRestrart() {
+	@Override
+	protected void onRestart() {
 		super.onRestart();
 		Toast.makeText(this, "App on Restart",Toast.LENGTH_SHORT).show();
 	}
