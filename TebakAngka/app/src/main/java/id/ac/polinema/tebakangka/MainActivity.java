@@ -60,5 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
 	public void handleReset(View view) {
 		// TODO: Reset tampilan
+		numberInput.setText("");
+		initRandomNumber();
+		outputText.setText(""+random);
 	}
 }
